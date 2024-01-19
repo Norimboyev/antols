@@ -1,0 +1,152 @@
+.tools {
+    padding: 200px 0;
+}
+
+.tools__wrap {
+    display: flex;
+    justify-content: space-between;
+}
+
+.left__box1 {
+    max-width: 427px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 60px;
+    align-items: flex-start;
+}
+
+.left__box1-title {
+    font-family: 'Poppins-Medium', sans-serif;
+    font-size: 48px;
+    font-weight: 500;
+    line-height: 62px;
+    color: #FFFFFFE5;
+}
+
+.left__box1-text {
+    font-family: 'Poppins-Medium', sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 30px;
+    color: #FFFFFF8C;
+}
+
+.left__box1-desc {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.left__box1-btn {
+    font-family: 'Poppins-Medium', sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 27px;
+    color: #fff;
+    background: #FF6E30;
+    padding: 16px 40px;
+    border: none;
+    outline: none;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.cards__card {
+    width: 288px;
+    padding: 28px 22px;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    border-radius: 15px;
+    transition: 0.3s;
+}
+
+.cards__card:hover {
+    background: #28303699;
+    transform: translateY(-20px);
+}
+
+.cards__card-logo {
+    display: flex;
+    gap: 30px;
+}
+
+.cards__card-logo-box {
+    display: flex;
+    flex-direction: column;
+    gap: 3px;
+}
+
+.cards__card-logo-box-title {
+    font-family: 'Poppins-Medium', sans-serif;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 36px;
+    color: #fff;
+}
+
+.cards__card-logo-box-link {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 27px;
+    color: #FFA5378C;
+}
+
+.cards__card-desc-text {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 30px;
+    color: #FFFFFF8C;
+}
+
+.cards__card-footer {
+    display: flex;
+    justify-content: space-between;
+}
+
+.cards__card-footer-box {
+    display: flex;
+    gap: 12px;
+}
+
+.cards__card-footer-btn {
+    font-family: 'Poppins-SemiBold', sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 24px;
+    color: #FFFFFF8C;
+    padding: 9px 35px;
+    border-radius: 8px;
+    border: none;
+    outline: none;
+    background: transparent;
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+.cards__card-footer-btn:hover {
+    background: #FF6E30;
+    color: #fff;
+}
+
+.cards__card-footer-box-img {
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+.cards__card-footer-box-img:hover {
+    fill: #FD3B41;
+}
+
+.right__box1 {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    width: 600px;
+}
+
+.cards {
+    display: flex;
+    justify-content: space-between;
+}

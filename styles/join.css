@@ -1,0 +1,72 @@
+.join {
+    padding: 250px 0 240px;
+}
+
+.join__wrap {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+}
+
+.join__wrap-desc {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    align-items: center;
+    justify-content: center;
+}
+
+.join__wrap-desc-title {
+    font-family: 'Poppins-Medium', sans-serif;
+    font-size: 48px;
+    font-weight: 500;
+    line-height: 62px;
+    color: #FFFFFFE5;
+}
+
+.join__wrap-desc-text {
+    width: 427px;
+    text-align: center;
+    font-family: 'Poppins-Medium', sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 30px;
+    color: #FFFFFF8C;
+}
+
+.join__wrap-search {
+    display: flex;
+    width: 549px;
+    justify-content: space-between;
+    background: #283036;
+    padding: 8px 12px 8px 24px;
+    border-radius: 15px;
+
+}
+
+.join__wrap-search-email {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 21px;
+    color: #FFFFFF61;
+    border: none;
+    outline: none;
+    background: #283036;
+}
+
+.join__wrap-search-btn {
+    font-family: 'Poppins-SemiBold', sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 24px;
+    color: #fff;
+    padding: 12px 35px;
+    border: transparent;
+    border: none;
+    outline: none;
+    background: #FF6E30;
+    cursor: pointer;
+    border-radius: 8px;
+}
